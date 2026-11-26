@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sarah Mitchell, Realtor — Keystone Realty | Austin, TX Homes for Sale</title>
+  <meta name="description" content="Sarah Mitchell is a Realtor with Keystone Realty in Austin, Texas. 120+ homes sold across Austin, Round Rock, Cedar Park and Georgetown. Straight answers, no pressure — call (512) 555-0177.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top strip: today's hours are filled in by script.js -->
+  <div class="topbar">
+    <p><span class="dot"></span> Office open today: <strong id="today-hours">9:00 AM – 6:00 PM</strong> &nbsp;·&nbsp; Keystone Realty, 1100 South Lamar Blvd, Austin, TX &nbsp;·&nbsp; <a href="tel:+15125550177">(512) 555-0177</a></p>
+  </div>
+
+  <!-- Header: agent name left, links right, sticks to the top while scrolling -->
+  <header class="site-header" id="site-header">
+    <a class="logo" href="#top" aria-label="Sarah Mitchell home">
+      <svg class="logo-mark" width="30" height="30" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="8" cy="15" r="4.5" stroke="currentColor" stroke-width="1.8"/><path d="M11.2 11.8 20 3m-3.2 3.2 2.6 2.6M14.6 6l2.2 2.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span class="logo-text">Sarah Mitchell<small>Keystone Realty · Austin</small></span>
+    </a>
+    <button class="menu-button" id="menu-button" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" id="main-nav">
+      <a href="#listings">Listings</a>
+      <a href="#services">Services</a>
+      <a href="#about">About Sarah</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#visit">Visit</a>
+      <a class="call-button" href="tel:+15125550177">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+        Call Sarah
+      </a>
+    </nav>
+  </header>
+
+  <!-- HERO: one beautiful home at dusk, one clear promise, two clear buttons -->
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <p class="hero-badge">120+ homes sold across the Austin area</p>
+      <p class="hero-eyebrow">Sarah Mitchell · Realtor · Keystone Realty</p>
+      <h1>Buying or selling in Austin? <em>Keep it simple.</em></h1>
+      <p class="hero-sub">I help neighbours buy and sell homes across Austin — with honest prices, straight answers, and no sales talk. Most of my clients were sent to me by someone I helped before.</p>
+      <div class="hero-buttons">
+        <a class="button" href="tel:+15125550177">Call (512) 555-0177</a>
+        <a class="button button-ghost" href="#listings">See featured listings</a>
+      </div>
+      <div class="hero-chips">
+        <span>Licensed Texas Realtor</span>
+        <span>Selling in Austin since 2011</span>
+        <span>Buyers &amp; sellers</span>
+      </div>
+    </div>
+    <a class="hero-scroll" href="#listings" aria-label="Scroll to listings">↓</a>
+  </section>
+
+  <!-- Moving strip: the neighbourhoods Sarah works in -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Zilker</span><i>✦</i><span>Hyde Park</span><i>✦</i><span>Clarksville</span><i>✦</i><span>Mueller</span><i>✦</i><span>Circle C Ranch</span><i>✦</i><span>Round Rock</span><i>✦</i><span>Cedar Park</span><i>✦</i><span>Georgetown</span><i>✦</i>
+      <span>Zilker</span><i>✦</i><span>Hyde Park</span><i>✦</i><span>Clarksville</span><i>✦</i><span>Mueller</span><i>✦</i><span>Circle C Ranch</span><i>✦</i><span>Round Rock</span><i>✦</i><span>Cedar Park</span><i>✦</i><span>Georgetown</span><i>✦</i>
+    </div>
+  </div>
+
+  <!-- TRUST ROW: four plain reasons people call Sarah first -->
+  <section class="section trust">
+    <div class="trust-grid">
+      <div class="trust-item reveal">
+        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11Z" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="10" r="2.6" stroke="currentColor" stroke-width="1.7"/></svg>
+        <h3>Local Austin expert</h3>
+        <p>Born and raised here. I know these streets block by block — schools, shortcuts, and which corners flood when it rains.</p>
+      </div>
+      <div class="trust-item reveal">
+        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+        <h3>Answers her own phone</h3>
+        <p>No assistants and no call centre. When you ring my number, you get me — evenings and weekends included.</p>
+      </div>
+      <div class="trust-item reveal">
+        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8.5-7 10-4-1.5-7-5.5-7-10V6l7-3Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="m9 12 2.2 2.2L15.5 10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <h3>No-pressure advice</h3>
+        <p>If a house is overpriced or wrong for you, I will say so — even when it costs me a sale. That is the whole job.</p>
+      </div>
+      <div class="trust-item reveal">
+        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="8" cy="15" r="4.5" stroke="currentColor" stroke-width="1.7"/><path d="M11.2 11.8 20 3m-3.2 3.2 2.6 2.6M14.6 6l2.2 2.2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <h3>Buyers and sellers</h3>
+        <p>First homes, family homes, and the house you raised your kids in. Both sides of the table, handled the same way.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED LISTINGS: three homes, presented like editorial features -->
+  <section class="section" id="listings">
+    <p class="eyebrow">Featured listings</p>
+    <h2>Homes on the market <em>this week</em></h2>
+    <p class="section-intro">A few of the homes I am showing right now. Prices and details are exactly as listed — call me for a private tour of any of them.</p>
+
+    <div class="listing-grid">
+      <article class="listing-card reveal">
+        <div class="listing-photo"><img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop" alt="Modern two-storey home with a pool in Zilker, Austin"><span class="tag tag-new">New</span></div>
+        <div class="listing-body">
+          <p class="listing-price">$865,000</p>
+          <h3>1904 Bluebonnet Lane</h3>
+          <p class="listing-area">Zilker, Austin, TX 78704</p>
+          <ul class="listing-specs">
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 18v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6M3 18v2m18-2v2M3 14h18M6 10V7a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg> 4 bd</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16a1 1 0 0 1 1 1 7 7 0 0 1-7 7h-4a7 7 0 0 1-7-7 1 1 0 0 1 1-1Zm2 0V6a3 3 0 0 1 6 0" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 20l-1 1.5M16 20l1 1.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg> 3.5 ba</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 9V4h5M20 15v5h-5M4 4l6 6m10 10-6-6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg> 2,840 sq ft</li>
+          </ul>
+          <p>Bright modern build a short walk from Barton Springs. Big kitchen, shaded back yard, and a pool that gets the evening sun.</p>
+        </div>
+      </article>
+
+      <article class="listing-card reveal">
+        <div class="listing-photo"><img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=80&w=1200&auto=format&fit=crop" alt="White two-storey family home with a pool in Hyde Park, Austin"><span class="tag">For sale</span></div>
+        <div class="listing-body">
+          <p class="listing-price">$724,900</p>
+          <h3>4712 Avenue G</h3>
+          <p class="listing-area">Hyde Park, Austin, TX 78751</p>
+          <ul class="listing-specs">
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 18v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6M3 18v2m18-2v2M3 14h18M6 10V7a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg> 4 bd</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16a1 1 0 0 1 1 1 7 7 0 0 1-7 7h-4a7 7 0 0 1-7-7 1 1 0 0 1 1-1Zm2 0V6a3 3 0 0 1 6 0" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 20l-1 1.5M16 20l1 1.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg> 3 ba</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 9V4h5M20 15v5h-5M4 4l6 6m10 10-6-6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg> 2,410 sq ft</li>
+          </ul>
+          <p>Classic Hyde Park street, wraparound porch upstairs and down, and a garden the owners tended for twenty years.</p>
+        </div>
+      </article>
+
+      <article class="listing-card reveal">
+        <div class="listing-photo"><img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?q=80&w=1200&auto=format&fit=crop" alt="Shingle-style home with a wide front porch in Clarksville, Austin"><span class="tag tag-contract">Under contract</span></div>
+        <div class="listing-body">
+          <p class="listing-price">$639,000</p>
+          <h3>2208 Hartford Road</h3>
+          <p class="listing-area">Clarksville, Austin, TX 78703</p>
+          <ul class="listing-specs">
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 18v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6M3 18v2m18-2v2M3 14h18M6 10V7a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg> 3 bd</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16a1 1 0 0 1 1 1 7 7 0 0 1-7 7h-4a7 7 0 0 1-7-7 1 1 0 0 1 1-1Zm2 0V6a3 3 0 0 1 6 0" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 20l-1 1.5M16 20l1 1.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg> 2.5 ba</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 9V4h5M20 15v5h-5M4 4l6 6m10 10-6-6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg> 2,105 sq ft</li>
+          </ul>
+          <p>Under contract in nine days. The deep front porch and the pecan tree out back did most of the talking.</p>
+        </div>
+      </article>
+    </div>
+    <p class="listings-note">Looking for something different? I see homes before they reach the big websites — call and tell me what you need.</p>
+  </section>
+
+  <!-- SERVICES: what Sarah actually does, in plain words -->
+  <section class="section services" id="services">
+    <div class="services-photo reveal"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1400&auto=format&fit=crop" alt="Bright, tidy living room and kitchen in an Austin home ready for sale"></div>
+    <div class="services-text">
+      <p class="eyebrow">How I can help</p>
+      <h2>Three things, <em>done properly</em></h2>
+      <div class="service-card reveal">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="7.5" cy="7.5" r="1.4" stroke="currentColor" stroke-width="1.7"/></svg>
+        <div>
+          <h3>Selling your home</h3>
+          <p>We price it from real recent sales on your street — not a guess. I arrange the photos, the listing, and the showings, and I handle every offer with you, line by line.</p>
+        </div>
+      </div>
+      <div class="service-card reveal">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m3 11 9-8 9 8M5.5 9.5V21h13V9.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 21v-6h4v6" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+        <div>
+          <h3>Buying a home</h3>
+          <p>Tell me the streets you like and what you can truly spend. I will send you homes that fit — including a few that never make it to the big websites — and tell you plainly when one is priced too high.</p>
+        </div>
+      </div>
+      <div class="service-card reveal">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="5" y="4" width="14" height="17" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M9 4.5V3h6v1.5M9 11h6M9 15h4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div>
+          <h3>Free home valuation</h3>
+          <p>Curious what your home would sell for today? I will come by, look at it properly, and give you a number I can back up with recent sales nearby. No charge, and no follow-up calls unless you ask.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Offer banner: the free valuation, over a twilight photo -->
+  <section class="offer reveal">
+    <div class="offer-inner">
+      <p class="offer-tag">Free, no strings</p>
+      <h2>What is your home worth today?</h2>
+      <p>One visit, one honest number, backed by real sales on streets near yours.</p>
+      <a class="button button-light" href="tel:+15125550177">Call for a free valuation</a>
+    </div>
+  </section>
+
+  <!-- ABOUT: the agent first — portrait, plain story, proof numbers -->
+  <section class="section about" id="about">
+    <div class="about-photo reveal"><img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1000&auto=format&fit=crop" alt="Sarah Mitchell, Realtor with Keystone Realty in Austin"></div>
+    <div class="about-text reveal">
+      <p class="eyebrow">About Sarah</p>
+      <h2>The agent your neighbours <em>send you to</em></h2>
+      <p>I grew up in South Austin and started selling homes here in 2011. I work with Keystone Realty, a small local brokerage on South Lamar — small enough that I still answer my own phone, and busy enough that I know what every street in this town is doing.</p>
+      <p>I keep my client list short on purpose. When you hire me, you get me at the showings, me at the inspections, and me at the closing table — not whoever was free that day.</p>
+      <div class="stats">
+        <div><b>120+</b><span>Homes sold</span></div>
+        <div><b>14 yrs</b><span>Selling in Austin</span></div>
+        <div><b>26</b><span>Homes sold last year</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Inside a home Sarah sold recently: one wide, calm photo -->
+  <section class="gallery" aria-label="Inside a recently sold Austin home">
+    <img class="reveal" src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=1920&auto=format&fit=crop" alt="Sunlit living room of a home recently sold in Austin">
+    <p class="gallery-caption">Inside 2208 Hartford Road — sold this spring, nine days after listing.</p>
+  </section>
+
+  <!-- REVIEWS: trust builders, shown as cards with stars -->
+  <section class="section" id="reviews">
+    <p class="eyebrow">Reviews</p>
+    <h2>What clients <em>actually say</em></h2>
+    <div class="review-grid">
+      <article class="review-card reveal">
+        <p class="stars" aria-label="5 out of 5 stars">★★★★★</p>
+        <p>“Sarah told us to walk away from the first house we loved — the inspection proved her right. The one we bought two months later is better in every way.”</p>
+        <cite>— Daniel &amp; Priya S., first-time buyers, Mueller</cite>
+      </article>
+      <article class="review-card reveal">
+        <p class="stars" aria-label="5 out of 5 stars">★★★★★</p>
+        <p>“She sold my mother's house in Clarksville for more than the first agent we tried said was possible. Calm, honest, and she returned every single call herself.”</p>
+        <cite>— Margaret W., seller, Clarksville</cite>
+      </article>
+      <article class="review-card reveal">
+        <p class="stars" aria-label="5 out of 5 stars">★★★★★</p>
+        <p>“We moved to Austin for work and knew nobody. Sarah spent a full Saturday driving us around Round Rock and Cedar Park until we found the right street.”</p>
+        <cite>— The Okafor family, buyers, Round Rock</cite>
+      </article>
+    </div>
+  </section>
+
+  <!-- VISIT: office hours (today highlighted by script.js), address, areas served -->
+  <section class="section visit" id="visit">
+    <div class="visit-card reveal">
+      <p class="eyebrow">Office hours</p>
+      <h2>Keystone Realty</h2>
+      <table class="hours-table" id="hours-table">
+        <tr data-days="1,2,3,4,5"><td>Monday – Friday</td><td>9:00 AM – 6:00 PM</td></tr>
+        <tr data-days="6"><td>Saturday</td><td>10:00 AM – 4:00 PM</td></tr>
+        <tr data-days="0"><td>Sunday</td><td>By appointment</td></tr>
+      </table>
+      <p class="today-note" id="today-note"></p>
+    </div>
+    <div class="visit-card reveal">
+      <p class="eyebrow">Find us</p>
+      <h2>1100 South Lamar Blvd</h2>
+      <p class="address">Suite 210, Austin, TX 78704<br>Free parking behind the building · Sarah is often out at showings — calling ahead is best</p>
+      <p class="areas-label">Areas I serve</p>
+      <div class="area-chips">
+        <span>Austin</span><span>Round Rock</span><span>Cedar Park</span><span>Pflugerville</span><span>Georgetown</span><span>Lakeway</span>
+      </div>
+      <a class="button" href="https://maps.google.com/?q=1100+South+Lamar+Blvd+Austin+TX" target="_blank" rel="noopener">Get directions on Google Maps</a>
+    </div>
+  </section>
+
+  <!-- CONTACT: simple form, script.js shows the thank-you note -->
+  <section class="section contact" id="contact">
+    <p class="eyebrow">Contact</p>
+    <h2>Ask me anything</h2>
+    <p class="section-intro">Thinking of selling, starting to look, or just wondering what your street is doing — send a note or call. I reply within one working day.</p>
+    <form id="contact-form" class="reveal">
+      <div class="form-row">
+        <div>
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+        </div>
+        <div>
+          <label for="email">Your email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+      </div>
+      <label for="message">Your message</label>
+      <textarea id="message" name="message" rows="4" placeholder="Hi Sarah, we are thinking of selling our place in Zilker..." required></textarea>
+      <button class="button" type="submit">Send message</button>
+      <p class="form-note" id="form-note" role="status"></p>
+    </form>
+  </section>
+
+  <footer class="site-footer">
+    <p class="footer-logo">Sarah Mitchell <span>· Keystone Realty</span></p>
+    <p>1100 South Lamar Blvd, Suite 210, Austin, TX 78704 · (512) 555-0177 · Licensed Texas Realtor</p>
+    <p class="footer-social">
+      <a href="#" aria-label="Sarah Mitchell on Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.7"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg></a>
+      <a href="#" aria-label="Sarah Mitchell on Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M15 4h3v4h-3c-.6 0-1 .4-1 1v2h4l-.5 4H14v7h-4v-7H7v-4h3V9c0-2.8 2.2-5 5-5Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></a>
+      Follow along: <b>@sarahmitchellatx</b>
+    </p>
+    <p class="footer-small">© <span id="year">2026</span> Sarah Mitchell, Keystone Realty. Demo website — a fictional agent, made as a design sample.</p>
+  </footer>
+
+  <!-- Sticky call button on phones: one tap and the client is calling -->
+  <a class="sticky-call" href="tel:+15125550177">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+    Call Sarah
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
